@@ -1,0 +1,54 @@
+/* 
+    Document   : ProgressBar
+    Created on : Dec 31, 2012, 3:41:57 PM
+    Author     : miguel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table.progress_bar {
+    width:100%;
+    border:2px solid #222;
+    background:#eee;
+    border-radius:3px;
+}
+
+table.progress_bar tr {
+
+}
+
+td.progress_element {
+    text-align: center;
+    width:150px;
+    border:1px solid #222;
+    font-size:22px;
+    color:white;
+}
+
+td.progress_element div.content {
+    height:45px;
+    margin-bottom:-46px;
+    background-color:#bfd71a;
+    background-image:url('../Img/gradient-weak.png');
+    background-position: bottom center;
+    background-repeat:repeat-x;
+    background-size: auto 100%;
+}
+
+td.progress_element.active div.content {
+    border-right: 1px solid rgb(156, 175, 23);
+}
+
+td.progress_element.undone {
+    color:#666;
+}
+
+td.progress_element.active {
+    color:black;
+    font-weight:bold;
+}
+
+td.progress_element.done {
+    color:white;
+    text-shadow:0px 2px 3px #425C00; 
+}
