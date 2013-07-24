@@ -18,6 +18,9 @@ class ChronosLayout extends PageLayout {
         $this->addStyle('Content');
         $this->addStyle('ProgressBar');
         $this->metaData = $metaData;
+        $this->addScript('http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js');
+        $this->addScript('http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js');
+        $this->addScript('http://dev.my-reality.de/jquery/icebearjs/1.0.1/jquery.icebearjs.min.js');
     }
     
     
@@ -48,7 +51,7 @@ class ChronosLayout extends PageLayout {
                             <div id="footer">
                                 <a href="http://my-reality.de/impressum/">Impressum</a>
                                 <a href="http://my-reality.de">Entwickler-Blog</a>
-                                &copy; 2012 my Reality Development
+                                &copy; 2013 my Reality Development
                             </div>
                         </div>
                     </div>';

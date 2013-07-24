@@ -141,7 +141,7 @@ abstract class PageLayout {
                           <link  rel="icon" type="image/png" href="' . $icon . '"/>';
 
         foreach ($this->scripts as $script) {            
-            $result .= '<script type="text/javascript" src="' . $this->scriptPath . $script . '.js"></script>';           
+            $result .= '<script type="text/javascript" src="' . $script . '"></script>';           
         }
         
         foreach ($this->styles as $style) {

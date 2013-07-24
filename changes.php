@@ -2,12 +2,11 @@
 include_once('Core/Core.php');
 include_once('Core/ChronosProgressBar.php');
 
-$content = parseChanges('http://chronos-game-toolkit.googlecode.com/svn/trunk/Chronos/changes.xml');
+$content = parseChanges('https://raw.github.com/MyRealityCoding/chronos/master/changes.xml');
 
 $layout->setTitle('Changes');
-$progress = '<div class="progress"><h2>Progress</h2>';
-$progressBar = new ChronosProgressBar($metaData);
-$progress .= $progressBar;
+$progress = '<div class="progress_area"><h2>Progress</h2>';
+$progress .= generateProgress();
 $progress .= '</div>';
 $layout->addContent($progress);
 $layout->addContent($content);

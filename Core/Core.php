@@ -14,7 +14,7 @@ include_once('Configuration.php');
 include_once('ChronosLayout.php');
 include_once('functions.php');
 
-$metaData = getMetaData('http://chronos-game-toolkit.googlecode.com/svn/trunk/Chronos/meta.xml');
+$metaData = getMetaData('https://raw.github.com/MyRealityCoding/chronos/master/meta.xml');
 
 $layout = new ChronosLayout($metaData);
 $layout->setIcon('http://my-reality.de/wp-content/uploads/2012/11/chronos-icon.png');
