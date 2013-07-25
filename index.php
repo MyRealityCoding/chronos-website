@@ -9,7 +9,7 @@ $content = '<div class="div_table">
                         Chronos is a java game toolkit with resource
                         management, game updating service and a scriptable
                         entity system.
-                        <div class="space"><a href="wiki/" class="button_grey">Getting started ></a></div>
+                        <div class="space"><a href="https://github.com/MyRealityCoding/chronos/wiki" class="button_grey">Getting started ></a></div>
                     </div>
                     <div class="div_table_cell right_align">
                         <div class="right"></div>
