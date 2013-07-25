@@ -7,7 +7,7 @@ function generateProgress() {
     $progress .= "<script type='text/javascript'>
         $('.progress').icebearProgress({
             datasource : 'proxy.php?url=https://raw.github.com/MyRealityCoding/chronos/master/meta.json',
-            duration : 2500,
+            duration : 1200,
             onEnterPhase : function(element) {
             
                 element.find('.ui-progressbar-value').css({

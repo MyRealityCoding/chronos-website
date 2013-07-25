@@ -43,8 +43,8 @@ class ChronosLayout extends PageLayout {
                                 <div class="logo_small"></div>
                                 <a href="index.php">About</a>
                                 <a href="changes.php">Changes</a>
-                                <a href="wiki/">Wiki</a>
-                                <a href="doc/">Documentation</a>
+                                <a href="https://github.com/MyRealityCoding/chronos/wiki">Wiki</a>
+                                <a href="javadoc/">Documentation</a>
                                 <a href="http://code.google.com/p/chronos-game-toolkit/downloads/list" class="button_green right">Download v.' . $versionString . '</a>
                             </div>
                             <div id="content">' . $content . '</div>
