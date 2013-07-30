@@ -20,7 +20,7 @@ class ChronosLayout extends PageLayout {
         $this->metaData = $metaData;
         $this->addScript('http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js');
         $this->addScript('http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js');
-        $this->addScript('http://dev.my-reality.de/jquery/icebearjs/1.0.1/jquery.icebearjs.min.js');
+        $this->addScript('http://dev.my-reality.de/jquery/icebearjs/1.1/jquery.icebearjs.min.js');
     }
     
     
